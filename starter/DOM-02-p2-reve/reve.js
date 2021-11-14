@@ -4,7 +4,7 @@ SOURCE : https://github.com/oc-courses/javascript-web
 */
 
 /*
- DOM - PREPA 2 : « Rêve » : compter les éléments
+ DOM - PREPA 2 : « Rêve » : compter les éléments.
  Déclarez la fonction compterElements afin que le reste du programme fonctionne correctement.
 */
 

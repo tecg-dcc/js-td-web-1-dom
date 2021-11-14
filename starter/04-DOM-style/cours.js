@@ -15,7 +15,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference
 // 1. La propriété style
 /*
 - Les éléments du DOM possèdent une propriété style.
-- Cette popriété style est elle-même un objet de type Style
+- Cette propriété style est elle-même un objet de type Style
 	- qui représente l'attribut  style de l'élément ;
 	- les propriétés de cet objet correspondent aux propriétés CSS de l'élément
 	  (elles doivent s'écrire en JS en camelCase, voir la référence sur le MDN :
@@ -28,7 +28,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference
 	* ajoutez-lui des marges de 1em en haut et en bas ;
 	* mettez-lui une couleur de fond #D8EFE3 ;
 	* ajoutez un padding de 0.5em ;
-	* écrivez-le en Baskerville de préférence, sinon Garamond 
+	* écrivez-le en Baskerville de préférence, sinon Garamond
 	 (font-stack : Baskerville, Baskerville Old Face, Garamond, Hoefler Text, Times New Roman, serif);
 	* doublez la taille de la police ;
 	* centrez-le autour d'une largeur de 5em;
@@ -42,7 +42,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference
 
 // 1. Les limites de la propriété style
 /*
-On peut utiliser la propriété style pour récupérer les propriétés CSS d'un élément
+On peut utiliser la propriété style pour récupérer les propriétés CSS d'un élément,
 mais attention… elle ne représente QUE l'attribut style de l'élément,
 elle ne permet donc pas d'accéder aux styles qui se trouvent dans une feuille de style externe
 */
@@ -64,5 +64,3 @@ La fonction window.getComputedStyle() (https://developer.mozilla.org/fr/docs/Web
 /* EXEFCICE 3 :
 Affichez la police de caractère et la couleur du 3e paragraphe (qui a l'id "para")
 */
-
-

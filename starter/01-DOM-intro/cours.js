@@ -22,7 +22,7 @@ EXERCICE 1 : Afficher dans la console
 
 // 2. Découvrir le type d'un nœud
 /*
-Chaque objet du DOM a une propriéténodeTypequi indique son type.
+Chaque objet du DOM à une propriété nodeType qui indique son type.
 La valeur de cette propriété est document.ELEMENT_NODE (une constante qui vaut 1) pour un nœud "élément" (balise HTML)
 et document.TEXT_NODE (une constante qui vaut 3) pour un nœud textuel.
 Voir documentation sur le MDN : https://developer.mozilla.org/fr/docs/Web/API/Node/nodeType

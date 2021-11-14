@@ -1,11 +1,11 @@
 /*
-Exercies qui accompagnent le tuto en anglais de Christian Heilmann :
+Exercices qui accompagnent le tuto en anglais de Christian Heilmann :
 « The essentials of DOM scripting in 10 minutes »,
 http://icant.co.uk/articles/domessentials/
-=> voir traduction française sur transparents (js-cours-DOM.pdf) 
+=> voir traduction française sur transparents (js-cours-DOM.pdf)
 */
 
-/* 1. Cibler l'élement d'id nav */
+/* 1. Cibler l'élément d'id nav */
 
 
 /* 2. Récupérer tous les li */
@@ -23,17 +23,17 @@ http://icant.co.uk/articles/domessentials/
 /* 6. Récupérer tous les li de classe impair */
 
 
-	/* a) afficher ce qu'on obtient */
+/* a) afficher ce qu'on obtient */
 
 
-	/* b) afficher le 2e li de classe impair */
+/* b) afficher le 2e li de classe impair */
 
 
-	/* c) afficher chacun des li impair */
+/* c) afficher chacun des li impair */
 
 
 
-	/* d) compter le nombre de li de classe impair dans la page */
+/* d) compter le nombre de li de classe impair dans la page */
 
 
 
@@ -52,35 +52,35 @@ http://icant.co.uk/articles/domessentials/
 /* 10. Récupérer tous les enfants de l'ul */
 
 
-	/* a) afficher ce qu'on obtient */
+/* a) afficher ce qu'on obtient */
 
-	/* b) cibler le 1er enfant de l'ul */
-
-
-	/* c) cibler le dernier enfant de l'ul */
+/* b) cibler le 1er enfant de l'ul */
 
 
-	/* c) cibler le 4e enfant de l'ul */
+/* c) cibler le dernier enfant de l'ul */
+
+
+/* c) cibler le 4e enfant de l'ul */
 
 
 
 /* 11. Chaînage de méthodes - que retournent les expressions suivantes ? */
-	/* a) document.getElementById("nav"). getElementsByTagName("li")[3].firstChild */
+/* a) document.getElementById("nav"). getElementsByTagName("li")[3].firstChild */
 
 
-	/* b) document. getElementsByTagName("li")[2].childNodes[3].firstChild */
+/* b) document. getElementsByTagName("li")[2].childNodes[3].firstChild */
 
 
-	/* c) document. getElementsByTagName("li")[2].firstChild.firstChild */
+/* c) document. getElementsByTagName("li")[2].firstChild.firstChild */
 
 
 
 /* 12. Afficher les propriétés (nom du nœud, type de nœud, valeur du nœud) d'un nœud
 */
-	/* a) du noeud document.getElementById("nav").getElementsByTagName("li")[3].firstChild */
+/* a) du noeud document.getElementById("nav").getElementsByTagName("li")[3].firstChild */
 
 
-	/* b) du noeud document.getElementById("nav").getElementsByTagName("a")[2].firstChild */
+/* b) du noeud document.getElementById("nav").getElementsByTagName("a")[2].firstChild */
 
 
 
@@ -89,10 +89,10 @@ http://icant.co.uk/articles/domessentials/
 
 
 /* 14. Modifier les attributs d'un élément */
-	/* a) Changer la valeur de l'attribut href du lien "Photos" en "photos.php" */
+/* a) Changer la valeur de l'attribut href du lien "Photos" en "photos.php" */
 
 
-	/* a) Lui ajouter un attribut title avec la valeur "voir mes photos" */
+/* a) Lui ajouter un attribut title avec la valeur "voir mes photos" */
 
 
 /* 15. Supprimer le dernier li du menu
@@ -138,10 +138,3 @@ http://icant.co.uk/articles/domessentials/
 
 
 /* 20. Remplacer le dernier lien par le texte (non cliquable) "Contact : monmail@gmail.com"*/
-
-
-
-
-
-
-

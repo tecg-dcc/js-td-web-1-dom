@@ -13,10 +13,10 @@ SOURCE :
 La propriété innerHTML
 - peut être utilisée pour modifier le contenu HTML d'un élément du DOM ;
 - est souvent utilisée pour "vider" un élément de tout son contenu
-!! N.B. Limiter son usage (déconseillé pour plusieurs raisons), on verra des méthodes plus adaptées
+!! N.B. Limiter son usage (déconseillé pour plusieurs raisons), on verra des méthodes plus adaptées.
 */
 /*
-EXERCICE 1 : 
+EXERCICE 1 :
 1. Enregistrer l'ul d'id "langages" dans la variable ulElt et l'afficher
 2. Ajouter un nouveau langage (C) à cette liste et la réafficher
 	(Aide : on lui ajoute (opérateur+=) une entrée sous la forme d'une balise <li>)
@@ -28,11 +28,11 @@ EXERCICE 1 :
 
 
 // 2. Le contenu textuel
-/* 
+/*
 La propriété textContent permet de modifier le contenu textuel d'un élément du DOM.
 */
 /*
-EXERCICE 2 : 
+EXERCICE 2 :
 Compléter le titre du document pour qu'il devienne
 "Quelques langages de programmation" et le réafficher
 */
@@ -41,13 +41,13 @@ Compléter le titre du document pour qu'il devienne
 
 
 // 3. Les attributs
-/* 
+/*
 - La méthode setAttribute() permet de définir la valeur de l'un des attributs d'un élément.
   Elle prend en paramètres le nom et la valeur de cet attribut.
-- On peut aussi modifier les attributs via la propriété qui les réprésente
+- On peut aussi modifier les attributs via la propriété qui les représente
 */
 /*
-EXERCICE 3 : 
+EXERCICE 3 :
 1. Stocker le premier titre du document dans une variable titreElt et l'afficher
 2. Lui donner l'id "titre" et le réafficher
 	- avec la méthode setAttribute()
@@ -59,7 +59,7 @@ EXERCICE 3 :
 
 // 4. Les classes
 /*
-- On peut utiliser la propriétéclassList pour ajouter ou supprimer des classes à un élément du DOM.
+- On peut utiliser la propriété classList pour ajouter ou supprimer des classes à un élément du DOM.
 - On emploie les méthodes add() (ajout) et remove() (suppression)
 - Une autre méthode très intéressante est la méthode toggle(), qui change la présence d'une classe dans la liste :
 	* si la classe existe, toggle() la supprime et retourne false, 
@@ -90,7 +90,7 @@ EXERCICE 5 :
 
 
 /***********************************************
-**********/
+ **********/
 
 // B. AJOUTER UN NOUVEL ÉLÉMENT
 
@@ -157,7 +157,7 @@ puis afficher le contenu HTML de l'ul
 
 
 /***********************************************
-**********/
+ **********/
 
 // C. REMPLACER OU SUPPRIMER UN NOEUD
 

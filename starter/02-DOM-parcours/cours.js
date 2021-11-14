@@ -114,7 +114,7 @@ La méthode querySelector() fonctionne comme querySelectorAll(), mais elle renvo
 
 
 /***********************************************
-**********/
+ **********/
 
 // B. OBTENIR DES INFORMATIONS SUR LES ÉLÉMENTS
 

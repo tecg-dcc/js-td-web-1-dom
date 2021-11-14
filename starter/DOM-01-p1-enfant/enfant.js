@@ -26,7 +26,7 @@ afficherEnfant(document.body, 1);
 afficherEnfant(document.body, -1);
 
 // Doit afficher l'erreur "Indice incorrect"
-// Le noeud body a moins de 9 noeuds enfants
+// Le noeud body à moins de 9 noeuds enfants
 afficherEnfant(document.body, 8);
 
 // Doit afficher l'erreur "Type de noeud incorrect"
